@@ -8,6 +8,8 @@ sudo apt-get install -y zsh
 
 zsh
 
+chsh -s /bin/zsh
+
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)  --skip-chsh"
 
 rm $HOME/.zshrc
