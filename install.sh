@@ -2,7 +2,7 @@ sudo apt-get update
 
 sudo snap install hub --classic
 
-cd ~/exceed && gem install ghi
+cd $HOME/exceed && gem install ghi
 
 sudo apt-get install -y zsh
 
@@ -11,6 +11,6 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 rm $HOME/.gitconfig
 rm $HOME/.zshrc
 
-cp -RTs $PWD/home $HOME
+cp -RTs $HOME/customizations/home $HOME
 
 source $HOME/.zshrc
