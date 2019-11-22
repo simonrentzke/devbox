@@ -1,5 +1,11 @@
 [user]
-  email = simon@rentzke.com
-  name = Simon Rentzke
+	email = simon@rentzke.com
+	name = Simon Rentzke
 [github]
-  user = simonrentzke
+	user = simonrentzke
+[core]
+	excludesfile = /Users/simonrentzke/.gitignore
+[ghi]
+	token = !security find-internet-password -a simonrentzke -s github.com -l 'ghi token' -w
+[hub]
+	host = github.com
