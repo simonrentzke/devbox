@@ -17,3 +17,7 @@ rm $HOME/.zshrc
 cp -RTs $HOME/customizations/home $HOME
 
 source $HOME/.zshrc
+
+git config --global user.name "Simon Rentzke"
+
+git config --global user.email "srentzke@intellum.com"
